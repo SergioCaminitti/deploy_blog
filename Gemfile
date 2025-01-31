@@ -54,10 +54,9 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem "pg"
-  gem "font-awesome-sass"
+
 end
-
+gem "pg"
+gem "font-awesome-sass"
 gem "devise"
-
 gem "ransack", "~> 4.2"
